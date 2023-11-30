@@ -1,0 +1,260 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+}
+.navbar {
+    background-color: black;
+}
+.navs img {
+    width: 70px;
+    height: 70px;
+}
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+  color: white;
+}
+.icn {
+  padding-right: 30px;
+}
+
+/* Dashboard 2 */
+.navbars {
+  display: none;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 500px;
+}
+
+/* Address Section */
+.speech {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 50px;
+    justify-content: center;
+  }
+
+  .badge img {
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  
+  .welcome h3{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 20px;
+  }
+  
+  .bed img {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Heads of Department */
+  .all {
+    text-align: center;
+    margin: 30px;
+  }
+ .box1 {
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 20px;
+ }
+
+ .box2 {
+  width: 100%;
+  height: 250px;
+  border: 2px solid black;
+  border-top: 30px solid blueviolet;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 20px;
+ }
+
+ .box3 {
+  width: 100px;
+  height: 10px;
+  border: 2px solid black;
+  border-top: 130px solid gold;
+  border-bottom: 0px solid transparent;
+  /* margin-left: 60%; */
+  border-radius: 100px;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 20px;
+ }
+ .box1 img {
+  width: 297px;
+  height: 190px;
+  border-radius: 10px;
+ }
+ .down {
+  margin-top: 40px;
+ }
+
+/* Login */
+.sin a {
+  text-decoration: none;
+  color: black;
+}
+
+ /* Footer */
+ .footer {
+  margin-top: 50px;
+ }
+ .foo {
+  background-color: antiquewhite;
+  padding: 10px 0px 30px 0px;
+  margin-top: 30px;
+ }
+ .fot {
+  display: flex;
+ }
+ .fot img {
+  width: 60px;
+  height: 60px;
+ }
+ .fo a {
+  font-size: 1.3rem;
+  margin: 20px;
+ }
+ .services {
+  text-align: center;
+  display: flex;
+ }
+ .services a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding-bottom: 10px;
+ }
+ .services a:hover {
+  color: red;
+ }
+ .educ {
+  padding-left: 80px;
+ }
+ .social {
+  padding-left: 80px;
+ }
+ .last {
+  text-align: center;
+ }
+ .icns a {
+  display: inline;
+  padding-right: -50px;
+ }
+
+ /* Dashboard boxes */
+ .boxxx {
+  display: block;
+}
+.boxxxx {
+  display: none;
+} 
+
+
+
+
+
+
+
+ 
+
+@media (max-width: 858px) {
+  .heads {
+    padding-left: 15px;
+  }
+ 
+  #testing {
+  display: none;
+ }
+
+ .navbars {
+  display: block;
+ }
+
+  /* Dashboard */
+  .dash {
+    background: #111;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .dash img {
+    width: 80px;
+    height: 80px;
+  }
+  .dash i {
+    margin-top: 40px;
+    margin-right: 30px;
+  }
+  .links ul li {
+    padding-top: 20px;
+    margin-left: 40px;
+  }
+  nav .links {
+    position: absolute;
+    background: #818181;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 5;
+    transition: 1s;
+  }
+  .links i {
+    margin: 10px;
+    cursor: pointer;
+  }
+  /* Boxxx */
+   .boxxxx {
+    display: block;
+  }
+  .boxxx {
+    display: none;
+  } 
+  .boxxxx {
+    width: 70vw;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 15px black;
+}
+.boxxxx img {
+    width: 100px;
+    height: 100px;
+}
+.add {
+  margin-left: 110px;
+}
+.adds {
+  margin-left: 30px;
+}
+.boxxxx h3 {
+  display: inline;
+}
+.down h3 {
+  display: inline;
+}
+#brai img {
+  margin-top: -50px;
+}
+#brai span a {
+  margin-top: -58px;
+}
+}
