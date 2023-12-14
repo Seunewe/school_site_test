@@ -43,7 +43,7 @@ function myForm(e) {
                 success.innerHTML = "Congratulations! You have successfully logged in"
                 alertDanger.style.display = "none";
                 alertSuccess.style.display = "block"
-                window.location.replace("/index4.html")
+                window.location.href = "index4.html"
             }
         }
     }

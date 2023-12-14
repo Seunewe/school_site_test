@@ -47,7 +47,7 @@ function myForm(e) {
             alertSuccess.style.display = "block"
             const userConverter = JSON.stringify(myDetails);
             localStorage.setItem("person", userConverter);
-            window.location.replace("/index2.html")
+            window.location.href = "index2.html"
         }
     } 
 }
